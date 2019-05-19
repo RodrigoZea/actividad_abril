@@ -153,7 +153,7 @@ MonoBehaviour:
     value: 1
   intensity:
     overrideState: 1
-    value: 29
+    value: 31.3
   intensityX:
     overrideState: 1
     value: 0.88

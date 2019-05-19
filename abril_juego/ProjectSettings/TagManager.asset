@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Food
+  - Ground
+  - Coins
+  - Portals
+  - Enemy
+  - Door
   layers:
   - Default
   - TransparentFX
@@ -15,7 +21,7 @@ TagManager:
   - 
   - PostProcess
   - Ground
-  - 
+  - Food
   - 
   - 
   - 
