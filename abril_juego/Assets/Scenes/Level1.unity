@@ -454,7 +454,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.023000002, y: 0.8747783}
   m_AnchorMax: {x: 0.15075001, y: 0.95331526}
-  m_AnchoredPosition: {x: -0.9299927, y: -21.199951}
+  m_AnchoredPosition: {x: -0.92993164, y: -21.199951}
   m_SizeDelta: {x: 0.13999939, y: -3.550003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &147807450
@@ -915,7 +915,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.100155294, y: -0.10015631}
@@ -2293,7 +2293,7 @@ PrefabInstance:
     - target: {fileID: 2256426775827473168, guid: 7f51af004cc8cd0488bd06c7e7b4c133,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2256426775827473168, guid: 7f51af004cc8cd0488bd06c7e7b4c133,
         type: 3}
@@ -21902,6 +21902,7 @@ GameObject:
   - component: {fileID: 1756492306}
   - component: {fileID: 1756492305}
   - component: {fileID: 1756492307}
+  - component: {fileID: 1756492308}
   m_Layer: 0
   m_Name: dessert
   m_TagString: Untagged
@@ -21985,6 +21986,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   winPanel: {fileID: 1895847706}
+--- !u!61 &1756492308
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756492304}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.010093689, y: 0.010095835}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2.5}
+    newSize: {x: 2, y: 2.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.5355988, y: 2.0355992}
+  m_EdgeRadius: 0
 --- !u!1 &1895847706
 GameObject:
   m_ObjectHideFlags: 0
@@ -22275,8 +22302,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.023000002, y: 0.8747783}
   m_AnchorMax: {x: 0.15075001, y: 0.95331526}
-  m_AnchoredPosition: {x: -0.9299927, y: 0.7750244}
-  m_SizeDelta: {x: 0.14000034, y: -3.5500026}
+  m_AnchoredPosition: {x: 3.8850098, y: 0.7750244}
+  m_SizeDelta: {x: 9.769993, y: -3.5500026}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2094187652
 MonoBehaviour:
